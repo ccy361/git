@@ -8,6 +8,7 @@ git status
 git diff HEAD -- readme.txt
 git log
 git log --pretty=oneline
+git log --graph --pretty=oneline --abbrev-commit
 git reset --hard HEAD^
 git reset --hard commit_id
 git reset HEAD <file>
