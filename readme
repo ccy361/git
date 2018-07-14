@@ -16,5 +16,7 @@ git checkout -- readme.txt
 git rm test.txt
 ===================================================================
 ssh-keygen -t rsa -C "youremail@example.com"
-git remote add origin git@github.com:ccy361/git.git
 ssh-keygen -t rsa -C "ccy361@163.com"
+===================================================================
+git remote add origin https://github.com/ccy361/git.git
+git push -u origin master
