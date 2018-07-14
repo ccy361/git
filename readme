@@ -1,0 +1,20 @@
+============================= git cmd =============================
+git config --global user.name "Your Name"
+git config --global user.email "email@example.com"
+git init
+git add readme.txt
+git commit -m "wrote a readme file"
+git status
+git diff HEAD -- readme.txt
+git log
+git log --pretty=oneline
+git reset --hard HEAD^
+git reset --hard commit_id
+git reset HEAD <file>
+git reflog
+git checkout -- readme.txt
+git rm test.txt
+===================================================================
+ssh-keygen -t rsa -C "youremail@example.com"
+git remote add origin git@github.com:ccy361/git.git
+ssh-keygen -t rsa -C "ccy361@163.com"
