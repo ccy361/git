@@ -30,9 +30,17 @@ git branch dev
 git checkout dev
 git branch
 git merge dev
+git merge --no-ff -m "merge with no-ff" dev
 git branch -d dev
+
 ===================================================================
+
 git stash
+git stash apply
+git stash drop
+git stash pop
+git stash list
+
 ===================================================================
  
 
