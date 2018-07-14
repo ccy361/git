@@ -44,8 +44,19 @@ git stash list
 
 ===================================================================
 git remote -v
-
+git remote rm origin
+git remote add origin ccy361@163.com:ccy361/git.git
 git pull
 
 ===================================================================
+git tag v1.0
+git tag v0.9 f52c633
+git tag -a v0.1 -m "version 0.1 released" 1094adb
+git show v0.9
+git tag -d v0.1
+git push origin :refs/tags/v0.9
+git push origin v1.0
+
+
+
 
