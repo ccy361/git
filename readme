@@ -29,10 +29,11 @@ git checkout -b dev
 git branch dev
 git checkout dev
 git branch
+git branch -D <name>
 git merge dev
 git merge --no-ff -m "merge with no-ff" dev
 git branch -d dev
-
+git branch --set-upstream-to=origin/dev dev
 ===================================================================
 
 git stash
@@ -42,9 +43,9 @@ git stash pop
 git stash list
 
 ===================================================================
- 
+git remote -v
 
-
+git pull
 
 ===================================================================
 
